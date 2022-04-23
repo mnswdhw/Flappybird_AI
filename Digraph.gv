@@ -1,0 +1,14 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	delta_x [fillcolor=lightgray shape=box style=filled]
+	delta_y_top [fillcolor=lightgray shape=box style=filled]
+	delta_y_bottom [fillcolor=lightgray shape=box style=filled]
+	"Jump or Not" [fillcolor=lightblue style=filled]
+	3 [fillcolor=white style=filled]
+	delta_x -> "Jump or Not" [color=green penwidth=0.3497147365575822 style=dotted]
+	delta_y_top -> "Jump or Not" [color=green penwidth=0.32171519842569063 style=solid]
+	delta_y_bottom -> "Jump or Not" [color=green penwidth=0.3130693435426502 style=solid]
+	delta_x -> 3 [color=green penwidth=0.22089769745145832 style=solid]
+	3 -> "Jump or Not" [color=red penwidth=0.5516211391646126 style=solid]
+	delta_y_top -> 3 [color=green penwidth=0.10988723801628984 style=solid]
+}
